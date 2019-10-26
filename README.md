@@ -8,7 +8,7 @@
 
 本社区注明版权出处的内容适用于[License](./LICENSE.md)版权许可。
 
-联系信息：<msraeduhub@microsoft.com>
+
 
 
 
@@ -110,4 +110,5 @@
   - [挑战黄金点](./E-Challenge/GoldenNumberGame)
   - [北京航空航天大学2019春季](./E-Challenge/BeihangUniversity2019Spring)
   - [山东大学2019春季](./E-Challenge/ShandongUniversity2019Spring)
+  - [Code Search](./E-Challenge/CodeSearch)
 

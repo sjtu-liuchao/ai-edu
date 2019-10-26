@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a7eebfef-e8b3-46a1-92cf-a0d970de4c9a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level3_ThreeLayerNet.py</StartupFile>
+    <StartupFile>Level2_Inference.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,17 +21,32 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DataReader.py" />
-    <Compile Include="Level1_Base.py" />
-    <Compile Include="Level3_ThreeLayerNet.py" />
-    <Compile Include="Level2_TwoLayerNet.py" />
-    <Compile Include="Level4_GradientCheck.py">
+    <Compile Include="HelperClass2\ActivatorFunction_2_0.py" />
+    <Compile Include="HelperClass2\ClassifierFunction_2_0.py" />
+    <Compile Include="HelperClass2\DataReader_2_0.py" />
+    <Compile Include="HelperClass2\EnumDef_2_0.py" />
+    <Compile Include="HelperClass2\HyperParameters_3_0.py" />
+    <Compile Include="HelperClass2\LossFunction_1_1.py" />
+    <Compile Include="HelperClass2\MnistImageDataReader.py" />
+    <Compile Include="HelperClass2\NeuralNet_3_0.py" />
+    <Compile Include="HelperClass2\TrainingHistory_2_3.py" />
+    <Compile Include="HelperClass2\WeightsBias_1_0.py" />
+    <Compile Include="HelperClass2\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level5_Inference.py">
+    <Compile Include="Level4_LR_BS.py" />
+    <Compile Include="Level3_GradientCheck.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MnistDataReader.py" />
+    <Compile Include="Level2_Inference.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level1_Mnist.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HelperClass2\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
